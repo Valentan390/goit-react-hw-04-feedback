@@ -1,0 +1,39 @@
+.buttonFeedbackGood {
+  width: 100px;
+  height: 38px;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+.buttonFeedbackGood:focus,
+.buttonFeedbackGood:hover {
+  background-color: rgb(113, 239, 113);
+}
+.buttonFeedbackNeutral {
+  width: 100px;
+  height: 38px;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(211, 236, 159);
+}
+
+.buttonFeedbackNeutral:focus,
+.buttonFeedbackNeutral:hover {
+  background-color: yellow;
+}
+
+.buttonFeedbackBad {
+  width: 100px;
+  height: 38px;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(233, 169, 169);
+}
+
+.buttonFeedbackBad:focus,
+.buttonFeedbackBad:hover {
+  background-color: red;
+}

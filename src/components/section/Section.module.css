@@ -1,0 +1,18 @@
+.sectionTitle {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.sectionDivChildren {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border: 8px solid bisque;
+  background-color: lavender;
+}
